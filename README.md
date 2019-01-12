@@ -1,5 +1,5 @@
 # randomSum
-[![Build Status](https://travis-ci.com/pdbrito/randomSum.png?branch=master)](https://travis-ci.com/pdbrito/randomSum) [![GoDoc](https://godoc.org/github.com/pdbrito/randomSum?status.svg)](https://godoc.org/github.com/pdbrito/randomSum) [![Go Report Card](https://goreportcard.com/badge/github.com/pdbrito/randomSum)](https://goreportcard.com/report/github.com/pdbrito/randomSum) [![Codecov](https://codecov.io/gh/pdbrito/randomSum/branch/master/graphs/badge.svg)](https://codecov.io/gh/pdbrito/randomSum/branch/master/graph/badge.svg)
+[![Build Status](https://travis-ci.com/pdbrito/randomSum.png?branch=master)](https://travis-ci.com/pdbrito/randomSum) [![GoDoc](https://godoc.org/github.com/pdbrito/randomSum?status.svg)](https://godoc.org/github.com/pdbrito/randomSum) [![Go Report Card](https://goreportcard.com/badge/github.com/pdbrito/randomSum)](https://goreportcard.com/report/github.com/pdbrito/randomSum) [![Codecov](https://codecov.io/gh/pdbrito/randomSum/branch/master/graphs/badge.svg)](https://codecov.io/gh/pdbrito/randomSum/branch/master/)
 
 Package randomSum  provides a function for generating random slices of ints that sum to a specified value.
 
