@@ -3,7 +3,7 @@
 
 Package randomSum  provides a function for generating random slices of ints that sum to a specified value.
 
-###Example
+### Example
 
 ```go
 package main
@@ -33,7 +33,7 @@ func sum(ints []int) int {
 }
 ```
 
-###Seeding for random values
+### Seeding for random values
 randomSum relies on the [rand package](https://golang.org/pkg/math/rand) to generate values for the ints that 
 it returns.
 
