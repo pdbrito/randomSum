@@ -13,7 +13,7 @@ func TestNIntsTotaling(t *testing.T) {
 	rand.Seed(time.Now().UnixNano())
 
 	f := func(n int) bool {
-		total := rand.Intn(100000)
+		total := rand.Intn(100000) + 1
 		size := rand.Intn(total-1) + 1
 
 		ints := NIntsTotaling(size, total)
