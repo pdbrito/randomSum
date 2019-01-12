@@ -29,12 +29,14 @@ func TestNIntsTotaling(t *testing.T) {
 func ExampleNIntsTotaling() {
 	ints := NIntsTotaling(20, 1000)
 
-	fmt.Println(len(ints))
-	fmt.Println(sum(ints))
+	fmt.Printf("ints: %v\n", ints)
+	fmt.Printf("The length of ints is %v\n", len(ints))
+	fmt.Printf("The sum of ints is %v\n", sum(ints))
 
 	// Output:
-	// 20
-	// 1000
+	// ints: [42 862 12 56 2 5 4 1 1 1 3 2 1 1 1 1 1 1 1 2]
+	// The length of ints is 20
+	// The sum of ints is 1000
 }
 
 func sum(ints []int) int {

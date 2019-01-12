@@ -1,5 +1,5 @@
-// Package randomSum provides a function for generating random slices of ints that
-// sum to a specified value.
+// Package randomSum provides a function for generating slices of random ints
+// that sum to a specified value.
 package randomSum
 
 import "math/rand"
