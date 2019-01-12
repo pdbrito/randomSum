@@ -27,6 +27,7 @@ func TestNIntsTotaling(t *testing.T) {
 }
 
 func ExampleNIntsTotaling() {
+	rand.Seed(1)
 	ints := NIntsTotaling(20, 1000)
 
 	fmt.Printf("ints: %v\n", ints)
